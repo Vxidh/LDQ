@@ -11,8 +11,8 @@
             margin: 0;
             padding: 0;
             font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #1c1c1c, #333333);
-            color: #ffffff;
+            background: #191a1d;
+            color: #fff;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -22,45 +22,46 @@
         }
 
         .container {
-            max-width: 600px;
+            max-width: 480px;
             width: 100%;
             text-align: center;
-            padding: 40px;
-            background: rgba(0, 0, 0, 0.4);
-            border-radius: 20px;
-            backdrop-filter: blur(10px);
-            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-            border: 1px solid rgba(255, 255, 255, 0.18);
+            padding: 36px 28px 28px 28px;
+            background: rgba(24, 25, 28, 0.92);
+            border-radius: 18px;
+            box-shadow: 0 4px 32px 0 rgba(0,0,0,0.18);
+            border: 1px solid rgba(255,255,255,0.08);
         }
 
         .profile-pic {
-            width: 120px;
-            height: 120px;
-            border-radius: 20px;
-            border: 4px solid #fff;
+            width: 100px;
+            height: 100px;
+            border-radius: 16px;
+            border: 2px solid #fff;
             object-fit: contain;
-            margin-bottom: 20px;
+            margin-bottom: 18px;
             background: #fff;
-            box-shadow: 0 4px 24px 0 rgba(0,0,0,0.10);
-            padding: 10px;
+            box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
+            padding: 8px;
             display: block;
             margin-left: auto;
             margin-right: auto;
         }
 
         h1 {
-            font-size: 2.3rem;
+            font-size: 2rem;
             margin: 0 0 8px 0;
             font-weight: 700;
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
         }
 
-        .tagline {
-            font-size: 1.1rem;
-            color: #ffb347;
-            margin-bottom: 18px;
-            font-weight: 600;
-            letter-spacing: 0.5px;
+
+        .divider {
+            width: 40px;
+            height: 2px;
+            background: linear-gradient(90deg, #ffb347 0%, #ffcc80 100%);
+            border-radius: 2px;
+            margin: 18px auto 24px auto;
+            opacity: 0.85;
         }
 
         p {
@@ -70,29 +71,31 @@
         }
 
         .links-container {
-            margin-top: 30px;
+            margin-top: 18px;
         }
         .links-container a {
             display: block;
-            background: linear-gradient(90deg, #ffb347 0%, #ffcc80 100%);
-            color: #222;
-            padding: 15px 20px;
-            margin-bottom: 18px;
-            border-radius: 12px;
+            background: #23242a;
+            color: #ffb347;
+            padding: 13px 18px;
+            margin-bottom: 14px;
+            border-radius: 9px;
             text-decoration: none;
-            font-size: 1.13rem;
-            font-weight: 700;
-            transition: all 0.3s cubic-bezier(.4,2,.3,1);
-            box-shadow: 0 2px 8px 0 rgba(255,179,71,0.10);
-            border: none;
+            font-size: 1.08rem;
+            font-weight: 600;
+            transition: all 0.2s cubic-bezier(.4,2,.3,1);
+            box-shadow: 0 1px 4px 0 rgba(255,179,71,0.06);
+            border: 1px solid #23242a;
             position: relative;
+            letter-spacing: 0.01em;
         }
 
         .links-container a:hover {
-            background: linear-gradient(90deg, #ffcc80 0%, #ffb347 100%);
-            color: #111;
-            transform: translateY(-3px) scale(1.04);
-            box-shadow: 0 6px 24px 0 rgba(255,179,71,0.18);
+            background: #191a1d;
+            color: #fff;
+            border: 1px solid #ffb347;
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 2px 12px 0 rgba(255,179,71,0.10);
         }
 
         .footer {
@@ -107,16 +110,14 @@
 
     <div class="container">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/LDQ_logo_black.png" alt="Club Logo" class="profile-pic">
-
-        <h1>Literary, Debate and Quiz Club, MIT Manipal</h1>
-
+        <h1>Literary Debate and Quiz Club, MIT Manipal</h1>
+        <div class="divider"></div>
         <div class="links-container">
             <a href="https://forms.gle/HvujaR7Ay5VJFKbW6" target="_blank">Working Committee Recruitments 2025-26</a>
             <a href="https://forms.gle/Zb8YMJyZms2xpnpN9" target="_blank">📝 BENTO Submissions</a>
             <a href="https://ldqmanipal.wordpress.com/" target="_blank">📖 LDQ Blog</a>
             <a href="https://www.instagram.com/ldq_manipal" target="_blank">📸 Instagram</a>
         </div>
-
         <div class="footer">
             &copy; 2025 LDQ Club - MIT Manipal
         </div>
